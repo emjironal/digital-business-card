@@ -17,8 +17,10 @@ export default function Information() {
       >
         Personal GitHub
       </a>
-      <MailButton />
-      <LinkedInButton />
+      <div className="container-button">
+        <MailButton />
+        <LinkedInButton />
+      </div>
     </div>
   );
 }
