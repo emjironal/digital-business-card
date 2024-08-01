@@ -1,13 +1,18 @@
-import Information from './components/Information/Information'
-
-import './App.css'
+import About from "./components/About";
+import Information from "./components/Information/Information";
+import profileImage from "./assets/profile.jpeg";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <Information />
+      <div className="container">
+        <img className="profile-image" src={profileImage} />
+        <Information />
+        <About />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
