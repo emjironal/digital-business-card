@@ -1,4 +1,4 @@
-import About from "./components/About";
+import About from "./components/About/About";
 import Information from "./components/Information/Information";
 import profileImage from "./assets/profile.jpeg";
 import "./App.css";
