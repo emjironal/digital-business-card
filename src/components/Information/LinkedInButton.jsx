@@ -7,10 +7,10 @@ export default function LinkedInButton() {
       href="https://www.linkedin.com/in/eduardo-jiron"
       target="_blank"
       rel="noopener noreferrer"
-      className="linkedin"
+      className="linkedinbutton--linkedin"
     >
-      <img className="linkedin-icon" src={linkedinIcon} />
-      <p className="linkedin-text">LinkedIn</p>
+      <img className="linkedinbutton--icon" src={linkedinIcon} />
+      <p className="linkedinbutton--text">LinkedIn</p>
     </a>
   );
 }

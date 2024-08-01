@@ -1,4 +1,4 @@
-.linkedin {
+.linkedinbutton--linkedin {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -10,12 +10,12 @@
   width: 115px;
 }
 
-.linkedin-icon {
+.linkedinbutton--icon {
   margin: 0;
   width: 16px;
 }
 
-.linkedin-text {
+.linkedinbutton--text {
     margin: 0;
     padding-left: 8px;
     color: white;

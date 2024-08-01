@@ -1,23 +1,21 @@
 import "./Information.css";
 import LinkedInButton from "./LinkedInButton";
 import MailButton from "./MailButton";
-import profileImage from "../../assets/profile.jpeg";
 
 export default function Information() {
   return (
-    <div className="container">
-      <img className="profile-image" src={profileImage} />
-      <h1 className="name">Eduardo Jirón</h1>
-      <h4 className="position">Software Engineer</h4>
+    <div className="information--container">
+      <h1 className="information--name">Eduardo Jirón</h1>
+      <h4 className="information--position">Software Engineer</h4>
       <a
-        className="website-link"
+        className="information--website-link"
         href="https://github.com/emjironal"
         target="_blank"
         rel="noopener noreferrer"
       >
         Personal GitHub
       </a>
-      <div className="container-button">
+      <div className="information--container-button">
         <MailButton />
         <LinkedInButton />
       </div>

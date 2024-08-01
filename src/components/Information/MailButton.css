@@ -1,4 +1,4 @@
-.email {
+.mailbutton--email {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,12 +11,12 @@
   width: 115px;
 }
 
-.email-icon {
+.mailbutton--email-icon {
   margin: 0;
   width: 16px;
 }
 
-.email-text {
+.mailbutton--email-text {
   margin: 0;
   padding-left: 8px;
   color: #374151;
