@@ -1,17 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
 }
 
 .profile-image {
-  margin: 0;
-  max-width: 100%;
-  border-radius: 10px 10px 0px 0px;
+    margin: 0;
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .container {
-  width: 350px;
-  background-color: #1a1b21;
+    width: 350px;
+    background-color: #1a1b21;
 }
